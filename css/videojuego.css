@@ -7,4 +7,38 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
- 
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+}
+
+div {
+    text-align: justify;
+    float: left;
+    clear: left;
+    width: 50%;
+    margin: 15px;
+    color: whitesmoke;
+}
+
+#titulo {
+    text-transform: uppercase;
+}
+
+#final {
+    text-transform: none;
+}
+
+
+video {
+    background-image: url("../img/marco.png");
+    float: right;
+    clear: right;
+    width: 900px;
+    height: 300px;
+    background-color: gold;
+    border-color: gold;
+    border-style: solid;
+
+}
