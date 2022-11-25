@@ -1,44 +1,183 @@
 body {
+    color: whitesmoke;
     background-image: url("../img/1186452.jpg");
-    background-color: #cccccc;
+    background-color: black;
     text-align: center;
-    display: inline-block;
     margin: 5px;
     background-position: center;
     background-repeat: no-repeat;
 }
+#basico {
+    color: whitesmoke;
+    background-image: url("../img/basico2.jpg");
+    background-color: black;
+    text-align: center;
+    margin: 5px;
+    background-position: center;
+    background-repeat: repeat;
+}
+.Foto{
+    float: right;
+    clear: right;
+    text-align: right;
+    border: 5px red solid;
+    margin: 15px 15px;
+    height:335px;
+    width: 40%;
 
+}
+.vagante{
+text-align: justify;
+border: 5px red solid;
+text-align: justify;
+float: left;
+clear: left;
+width: 50%;
+height:335px;
+margin: 15px;
+}
+.Guerrero{
+    text-align: justify;
+    border: 5px red solid;
+    text-align: justify;
+    float: left;
+    clear: left;
+    width: 50%;
+    height:335px;
+    margin: 15px;
+}
+.Heroe{
+    text-align: justify;
+    border: 5px red solid;
+    text-align: justify;
+    float: left;
+    clear: left;
+    width: 50%;
+    height:335px;
+    margin: 15px;
+}
+.Samurai{
+    text-align: justify;
+    border: 5px red solid;
+    text-align: justify;
+    float: left;
+    clear: left;
+    width: 50%;
+    height:335px;
+    margin: 15px;
+}
+.Miserable{
+    text-align: justify;
+    border: 5px red solid;
+    text-align: justify;
+    float: left;
+    clear: left;
+    width: 50%;
+    height:335px;
+    margin: 15px;
+}
+.Profeta{
+    text-align: justify;
+    border: 5px red solid;
+    text-align: justify;
+    float: left;
+    clear: left;
+    width: 50%;
+    height:335px;
+    margin: 15px;
+}
+.Confesor{
+    text-align: justify;
+    border: 5px red solid;
+    text-align: justify;
+    float: left;
+    clear: left;
+    width: 50%;
+    height:335px;
+    margin: 15px;
+}
+.Astrologo{
+    text-align: justify;
+    border: 5px red solid;
+    text-align: justify;
+    float: left;
+    clear: left;
+    width: 50%;
+    height:335px;
+    margin: 15px;
+}
+.Bandido{
+    text-align: justify;
+    border: 5px red solid;
+    text-align: justify;
+    float: left;
+    clear: left;
+    width: 50%;
+    height:335px;
+    margin: 15px;
+}
+.Prisionero{
+    text-align: justify;
+    border: 5px red solid;
+    text-align: justify;
+    float: left;
+    clear: left;
+    width: 50%;
+    height:335px;
+    margin: 15px;
+}
 h1 {
     color: white;
     text-transform: uppercase;
 }
-
-div {
+a:link{
+    color: red;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    color: gold;
+}
+a:active{
+    color: goldenrod;
+}
+.enlace1{
+    display: inline;
+    border: 1px black solid;
+    background-color: black;
+    background-image: url("../img/elden-ring-border-leaf.png");
+    background-size: cover;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15%;
+}
+.enlace2{
+    display: inline;
+    text-align: center;
+    border: 1px black solid;
+    background-color: black;
+    background-image: url("../img/elden-ring-border-leaf.png");
+    background-size: cover;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15%;
+}
+#principal {
     text-align: justify;
     float: left;
     clear: left;
     width: 50%;
     margin: 15px;
-    color: whitesmoke;
 }
-
 #titulo {
     text-transform: uppercase;
 }
-
 #final {
     text-transform: none;
 }
-
-
 video {
-    background-image: url("../img/marco.png");
-    float: right;
-    clear: right;
-    width: 900px;
-    height: 300px;
-    background-color: gold;
-    border-color: gold;
-    border-style: solid;
-
+    display: inline;
+    width: 700px;
+    height: 350px;
 }
