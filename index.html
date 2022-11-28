@@ -7,25 +7,26 @@
     <!--CSS-->
     <link href="css/videojuego.css" rel="stylesheet" type="text/css" />
     <!--Pone un icono en la paguina al lado de title-->
-    <link rel="icon" href="img/caballero.png" type="image/png" sizes="16x16">
-    <!--Agrega una afuente de google font para las letras-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/caballero3.png" type="image/png"/>
 </head>
 
 <body>
     <img src="img/eldenring_new.webp" alt="elden" />
     <h1>Elden Ring</h1>
-    <div class="enlace1">
-        <a href="html/videojuego1.html">Caracterìsticas Principales</a>
-    </div>
-    <div class="enlace2">
-        <a href="html/videojuego2.html">Personajes</a>
-    </div>
+    <div id="Caballero">
+        <div id="CaballeroC">
+            <a href="html/videojuego1.html"><img width="40" src="img/caballero2.png" alt="elden" /></a>
+            <a href="html/videojuego1.html">Caracteristicas Principales</a>
+        </div>
     
-    <div id="principal">
-        <h2 id="titulo">La Orden Dorada está rota.</h2>
+        <div id="CaballeroP">
+            <a href="html/videojuego2.html"><img width="50" src="img/caballero1.png" alt="elden" /></a>
+            <a href="html/videojuego2.html">Personajes</a>
+        </div>
+    </div>
+
+    <div id="TextoIndex">
+        <h2 id="TituloIndex">La Orden Dorada está rota.</h2>
         <p>Álzate, Sinluz, y que la gracia te guíe para abrazar el poder del Círculo de Elden y
             encumbrarte como señor del Círculo en las Tierras Intermedias.</p>
         <p>En las Tierras Intermedias gobernadas por la Reina Márika, la Eterna, el Círculo de
@@ -37,11 +38,17 @@
             recaerá sobre el Sinluz desdeñado por la gracia del oro y exiliado de las Tierras Intermedias. Tú que has
             muerto, pero vives, con tu gracia tiempo ha perdida, recorre la senda hacia las Tierras Intermedias más allá
             del neblinoso mar para postrarte ante el Círculo de Elden</p>
-        <p id="final">Y conviértete en el señor del Círculo.</p>
+        <p id="FinalIndex">Y conviértete en el señor del Círculo.</p>
     </div>
-    <video autoplay loop>
+    <!-- <video id="VideoIndex" autoplay loop>
         <source src="video/elden-ring-header-animated.webm" type="video/webm" />
-    </video>
+    </video> -->
+  
+        <iframe src="https://www.youtube.com/embed/E3Huy2cdih0" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+
 </body>
 
 </html>

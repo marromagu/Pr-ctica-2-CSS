@@ -1,3 +1,4 @@
+/*Selectores Genericos*/
 body {
     color: whitesmoke;
     background-image: url("../img/1186452.jpg");
@@ -8,20 +9,103 @@ body {
     background-repeat: no-repeat;
 }
 
-#basico {
+h1 {
+    color: white;
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+/*Ids del Index*/
+#Caballero {
+    float: left;
+    margin:1% 5%;
+}
+#CaballeroC {
+    margin: 25%;
+    border:1px aliceblue solid;
+    padding: 10%;
+    width: 100px;
+
+}
+#CaballeroP{
+    margin:75% 25%;
+    border:1px aliceblue solid;
+    padding: 10%;
+    width: 100px;
+
+
+}
+#TituloIndex {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#TextoIndex {
+    text-align: justify;
+    float: left;
+    margin: 15px 15px;
+    height: 335px;
+    width: 40%;
+}
+
+#FinalIndex {
+    text-transform: none;
+    font-style: italic;
+}
+
+#VideoIndex {
+    display: inline;
+    width: 829px;
+    height: 350px;
+    border-color: red;
+}
+
+/*Clases de videojuego1*/
+.iz {
+    text-align: left;
+    float: left;
+    width: 50%;
+    height: 335px;
+    margin: 15px;
+}
+
+.TituloCaracteristicas {
+    background-color: peru;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    padding: 10px;
+}
+
+.VideoPg1 {
+    display: inline;
+    width: 829px;
+    height: 350px;
+    border-color: red;
+}
+
+.der {
+    text-align: right;
+    color: rgb(255, 255, 255);
+    float: right;
+    width: 50%;
+    height: 335px;
+    margin: 15px;
+}
+
+/*Clases de videojuego2*/
+#FondoPg2 {
     color: whitesmoke;
     background-image: url("../img/Fondo1440x900.jpg");
-    background-color: rgb(143, 77, 77);
+    background-color: rgb(22, 22, 22);
     text-align: center;
     margin: 5px;
     background-position: center;
     background-repeat: repeat;
- 
+
 }
 
 .Foto {
-    float: right;
-    clear: right;
+    float: left;
     text-align: right;
     padding-right: 30%;
     margin-top: 15px;
@@ -35,103 +119,23 @@ body {
     padding-left: 25%;
     margin-top: 15px;
     float: left;
-    clear: left;
     width: 500px;
     height: 335px;
 }
 
-h1 {
-    color: white;
-    text-transform: uppercase;
-    margin: 15px;
-}
-
+/*Links*/
 a:link {
     color: red;
 }
 
 a:visited {
-    color: brown;
+    color: darkred;
 }
 
 a:hover {
-    color: gold;
+    color: orange;
 }
 
 a:active {
-    color: goldenrod;
-}
-
-.enlace1 {
-    display: inline;
-    background-color: gold;
-    background-image: url("../img/elden-ring-border-leaf.png");
-    background-size: cover;
-    border-radius: 10px;
-    padding: 15px;
-    margin: 15px 15px 15px 15px;
-}
-
-.enlace2 {
-    display: inline;
-    text-align: center;
-    background-color: gold;
-    background-image: url("../img/elden-ring-border-leaf.png");
-    background-size: cover;
-    border-radius: 10px;
-    width: 150px;
-    padding: 15px;
-    margin: 15px;
-}
-
-#principal {
-    text-align: justify;
-    float: left;
-    clear: left;
-    margin: 15px 15px;
-    height: 335px;
-    width: 40%;
-}
-
-video {
-    display: inline;
-    width: 829px;
-    height: 350px;
-    border-color: red;
-}
-
-#titulo {
-    text-transform: uppercase;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#final {
-    text-transform: none;
-    font-style: italic;
-}
-
-.iz {
-    text-align: left;
-    float: left;
-    clear: left;
-    width: 50%;
-    height: 335px;
-    margin: 15px;
-}
-
-.der {
-    text-align: right;
-    color: rgb(255, 255, 255);
-    float: right;
-    clear: right;
-    width: 50%;
-    height: 335px;
-    margin: 15px;
-}
-
-.tituloCaracteristicas {
-    background-color: peru;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: xx-large;
-    padding: 10px;
+    color: violet;
 }
