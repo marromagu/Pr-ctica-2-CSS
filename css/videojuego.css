@@ -7,177 +7,131 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 #basico {
     color: whitesmoke;
-    background-image: url("../img/basico2.jpg");
-    background-color: black;
+    background-image: url("../img/Fondo1440x900.jpg");
+    background-color: rgb(143, 77, 77);
     text-align: center;
     margin: 5px;
     background-position: center;
     background-repeat: repeat;
+ 
 }
-.Foto{
+
+.Foto {
     float: right;
     clear: right;
     text-align: right;
-    border: 5px red solid;
-    margin: 15px 15px;
-    height:335px;
-    width: 40%;
+    padding-right: 30%;
+    margin-top: 15px;
+    height: 335px;
+    width: 400px;
 
 }
-.vagante{
-text-align: justify;
-border: 5px red solid;
-text-align: justify;
-float: left;
-clear: left;
-width: 50%;
-height:335px;
-margin: 15px;
-}
-.Guerrero{
+
+.Personaje {
     text-align: justify;
-    border: 5px red solid;
-    text-align: justify;
+    padding-left: 25%;
+    margin-top: 15px;
     float: left;
     clear: left;
-    width: 50%;
-    height:335px;
-    margin: 15px;
+    width: 500px;
+    height: 335px;
 }
-.Heroe{
-    text-align: justify;
-    border: 5px red solid;
-    text-align: justify;
-    float: left;
-    clear: left;
-    width: 50%;
-    height:335px;
-    margin: 15px;
-}
-.Samurai{
-    text-align: justify;
-    border: 5px red solid;
-    text-align: justify;
-    float: left;
-    clear: left;
-    width: 50%;
-    height:335px;
-    margin: 15px;
-}
-.Miserable{
-    text-align: justify;
-    border: 5px red solid;
-    text-align: justify;
-    float: left;
-    clear: left;
-    width: 50%;
-    height:335px;
-    margin: 15px;
-}
-.Profeta{
-    text-align: justify;
-    border: 5px red solid;
-    text-align: justify;
-    float: left;
-    clear: left;
-    width: 50%;
-    height:335px;
-    margin: 15px;
-}
-.Confesor{
-    text-align: justify;
-    border: 5px red solid;
-    text-align: justify;
-    float: left;
-    clear: left;
-    width: 50%;
-    height:335px;
-    margin: 15px;
-}
-.Astrologo{
-    text-align: justify;
-    border: 5px red solid;
-    text-align: justify;
-    float: left;
-    clear: left;
-    width: 50%;
-    height:335px;
-    margin: 15px;
-}
-.Bandido{
-    text-align: justify;
-    border: 5px red solid;
-    text-align: justify;
-    float: left;
-    clear: left;
-    width: 50%;
-    height:335px;
-    margin: 15px;
-}
-.Prisionero{
-    text-align: justify;
-    border: 5px red solid;
-    text-align: justify;
-    float: left;
-    clear: left;
-    width: 50%;
-    height:335px;
-    margin: 15px;
-}
+
 h1 {
     color: white;
     text-transform: uppercase;
+    margin: 15px;
 }
-a:link{
+
+a:link {
     color: red;
 }
-a:visited{
+
+a:visited {
     color: brown;
 }
-a:hover{
+
+a:hover {
     color: gold;
 }
-a:active{
+
+a:active {
     color: goldenrod;
 }
-.enlace1{
+
+.enlace1 {
     display: inline;
-    border: 1px black solid;
-    background-color: black;
+    background-color: gold;
     background-image: url("../img/elden-ring-border-leaf.png");
     background-size: cover;
     border-radius: 10px;
     padding: 15px;
-    margin: 15%;
+    margin: 15px 15px 15px 15px;
 }
-.enlace2{
+
+.enlace2 {
     display: inline;
     text-align: center;
-    border: 1px black solid;
-    background-color: black;
+    background-color: gold;
     background-image: url("../img/elden-ring-border-leaf.png");
     background-size: cover;
     border-radius: 10px;
+    width: 150px;
     padding: 15px;
-    margin: 15%;
+    margin: 15px;
 }
+
 #principal {
     text-align: justify;
     float: left;
     clear: left;
-    width: 50%;
-    margin: 15px;
+    margin: 15px 15px;
+    height: 335px;
+    width: 40%;
 }
-#titulo {
-    text-transform: uppercase;
-}
-#final {
-    text-transform: none;
-}
+
 video {
     display: inline;
-    width: 700px;
+    width: 829px;
     height: 350px;
+    border-color: red;
+}
+
+#titulo {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#final {
+    text-transform: none;
+    font-style: italic;
+}
+
+.iz {
+    text-align: left;
+    float: left;
+    clear: left;
+    width: 50%;
+    height: 335px;
+    margin: 15px;
+}
+
+.der {
+    text-align: right;
+    color: rgb(255, 255, 255);
+    float: right;
+    clear: right;
+    width: 50%;
+    height: 335px;
+    margin: 15px;
+}
+
+.tituloCaracteristicas {
+    background-color: peru;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    padding: 10px;
 }
