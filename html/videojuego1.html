@@ -5,57 +5,67 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Caracterìsticas principales</title>
     <!--Pone un icono en la paguina al lado de title-->
-    <link rel="icon" href="../img/caballero.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="../img/caballero.png" type="image/png" />
     <link href="../css/videojuego.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <img src="../img/eldenring_new.webp" alt="elden" />
+    <div><img src="../img/eldenring_new.webp" alt="elden" /></div>
     <h1>Caracterìsticas principales</h1>
-    <section>
-        <article class="iz">
-            <h3 class="TituloCaracteristicas">Un nuevo mundo de fantasía</h3>
-            <p>Recorre las Tierras Intermedias, un nuevo mundo de fantasía ideado por Hidetaka Miyazaki, creador de la
-                exitosa serie de videojuegos DARK SOULS, y por George R. R. Martin, autor de Canción de hielo y fuego,
-                la serie de fantasía superventas según The New York Times. </p>
-            <p>Desvela los misterios del poder del Círculo de Elden. Enfréntate a criaturas temibles y conoce a
-                adversarios con pasados tumultuosos y personajes con sus propias motivaciones para ayudarte a avanzar o
-                complicarte las cosas. </p>
-        </article>
-        <!--imagen o video-->
-        <video  class="VideoPg1"autoplay loop>
-            <source src="../video/eldenring-kf-01-animated-new.webm" type="video/webm" />
+    <div class="iz">
+        <h3 class="TituloCaracteristicas">Un nuevo mundo de fantasía</h3>
+        <p>Recorre las Tierras Intermedias, un nuevo mundo de fantasía ideado por Hidetaka Miyazaki, creador de la
+            exitosa serie de videojuegos DARK SOULS, y por George R. R. Martin, autor de Canción de hielo y fuego,
+            la serie de fantasía superventas según The New York Times. </p>
+        <p>Desvela los misterios del poder del Círculo de Elden. Enfréntate a criaturas temibles y conoce a
+            adversarios con pasados tumultuosos y personajes con sus propias motivaciones para ayudarte a avanzar o
+            complicarte las cosas. </p>
+    </div>
+    <!--imagen o video-->
+    <!-- Estos videos estan comentados para que no de error en el validador, ya que da error en el "src" diciendo que no es un atributo y no se como solucionarlo -->
+    <!--     <div>
+        <video src="../video/eldenring-kf-01-animated-new.webm" type="video/webm" controls>       
         </video>
+    </div> -->
+    <div class="video">
+        <object data="../video/eldenring-kf-01-animated-new.webm">
+        </object>
+    </div>
 
-        <article class="der">
-            <h3 class="TituloCaracteristicas">Explora el mundo de las Tierras Intermedias</h3>
-            <p>ELDEN RING ofrece vastos parajes de fantasía y sombrías e intricadas mazmorras que están conectadas de
-                forma fluida y sin interrupciones.</p>
-            <p>Recorre este impresionante mundo a pie o a caballo, en solitario u online con otros jugadores. Sumérgete
-                en las verdes llanuras, en los pantanos agobiantes, en las montañas tortuosas, en unos castillos que no
-                auguran nada bueno y en otros parajes majestuosos. Todo ello, a una escala nunca antes vista en un juego
-                de FromSoftware. </p>
-        </article>
-        <!--imagen o video-->
-        <video class="VideoPg1" autoplay loop>
-            <source src="../video/eldenring-kf-02-animated-new.webm" type="video/webm" />
-        </video>
+    <div class="der">
+        <h3 class="TituloCaracteristicas">Explora el mundo de las Tierras Intermedias</h3>
+        <p>ELDEN RING ofrece vastos parajes de fantasía y sombrías e intricadas mazmorras que están conectadas de
+            forma fluida y sin interrupciones.</p>
+        <p>Recorre este impresionante mundo a pie o a caballo, en solitario u online con otros jugadores. Sumérgete
+            en las verdes llanuras, en los pantanos agobiantes, en las montañas tortuosas, en unos castillos que no
+            auguran nada bueno y en otros parajes majestuosos. Todo ello, a una escala nunca antes vista en un juego
+            de FromSoftware. </p>
+    </div>
+    <!--imagen o video-->
+    <div class="video">
+        <object data="../video/eldenring-kf-02-animated-new.webm">
+        </object>
+    </div>
 
-        <article class="iz">
-            <h3 class="TituloCaracteristicas">Un sistema de juego que definirá el género</h3>
-            <p>Crea a tu propio personaje en este refinado juego de rol y acción de FromSoftware y define tu estilo de
-                juego a partir del amplio abanico de armas, poderes mágicos y habilidades que encontrarás a lo largo y
-                ancho del mundo.</p>
-            <p>Ve de cabeza al combate, usa el sigilo para acabar con los enemigos uno a uno o pide ayuda a tus aliados.
-                Tendrás muchas opciones a tu disposición, tanto a la hora de explorar como de saltar al combate. </p>
-        </article>
-        <!--imagen o video-->
-        <video class="VideoPg1" autoplay loop>
-            <source src="../video/eldenring-kf-03-animated-new.webm" type="video/webm" />
-        </video>
-    </section>
+
+
+    <div class="iz">
+        <h3 class="TituloCaracteristicas">Un sistema de juego que definirá el género</h3>
+        <p>Crea a tu propio personaje en este refinado juego de rol y acción de FromSoftware y define tu estilo de
+            juego a partir del amplio abanico de armas, poderes mágicos y habilidades que encontrarás a lo largo y
+            ancho del mundo.</p>
+        <p>Ve de cabeza al combate, usa el sigilo para acabar con los enemigos uno a uno o pide ayuda a tus aliados.
+            Tendrás muchas opciones a tu disposición, tanto a la hora de explorar como de saltar al combate. </p>
+    </div>
+    <!--imagen o video-->
+
+    <div class="video">
+        <object data="../video/eldenring-kf-03-animated-new.webm">
+        </object>
+    </div>
+
     <h2>Mira los <a href="videojuego2.html">Personajes</a></h2>
-    <a href="../index.html">Inicio</a>
+    <h2><a href="../index.html">Inicio</a></h2>
 </body>
 
 </html>

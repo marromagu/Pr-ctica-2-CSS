@@ -53,9 +53,9 @@ h1 {
     font-style: italic;
 }
 
-#VideoIndex {
+iframe {
     display: inline;
-    width: 829px;
+    width: 800px;
     height: 350px;
     border-color: red;
 }
@@ -76,12 +76,14 @@ h1 {
     padding: 10px;
 }
 
-.VideoPg1 {
+object {
     display: inline;
     width: 829px;
     height: 350px;
     border-color: red;
+    
 }
+
 
 .der {
     text-align: right;
@@ -107,7 +109,7 @@ h1 {
 .Foto {
     float: left;
     text-align: right;
-    padding-right: 30%;
+    padding-right: 25%;
     margin-top: 15px;
     height: 335px;
     width: 400px;
